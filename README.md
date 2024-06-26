@@ -2,4 +2,4 @@ This project creates a digital clock displaying the current date and time using 
 
 Created by Akash Sreedhar 
 
-Cick the Link : https://akashsreedhar.github.io/Digitalclock/
+Click the Link : https://akashsreedhar.github.io/Digitalclock/
