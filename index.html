@@ -23,12 +23,16 @@
 function displayTime(){
     const currentTime=new Date();
     console.log(currentTime);
+    let day=currentTime.getDate();
+    let month=currentTime.getMonth() +1 ;  // getMonth() method in JavaScript returns the month index starting from 0 (January) to 11 (December).
+    let year=currentTime.getFullYear();
     let hours=currentTime.getHours();
     console.log(hours)
     let  minutes=currentTime.getMinutes();
     console.log(minutes)
     let seconds=currentTime.getSeconds();
-    clock.innerHTML=`${hours} : ${minutes} :${seconds} ${hours<12? 'AM':'PM'}`
+    clock.innerHTML=`${day} / ${month} / ${year} <br> ${hours} : ${minutes} :${seconds} ${hours<12? 'AM':'PM'}`
+    
 }
 setInterval(()=>{
     displayTime()
