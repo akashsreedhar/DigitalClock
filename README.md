@@ -1,5 +1,7 @@
-This project creates a digital clock displaying the current date and time using HTML, CSS, and JavaScript.
+Digital Clock display the current date and time of local machine using HTML, CSS, and JavaScript
 
-Created by Akash Sreedhar 
+Stack Used : HTML, CSS, and JavaScript.
 
-Click the Link : https://akashsreedhar.github.io/Digitalclock/
+Created by : Akash Sreedhar
+
+Click the link : https://akashsreedhar.github.io/Digitalclock/
